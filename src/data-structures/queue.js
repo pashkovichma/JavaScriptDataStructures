@@ -1,10 +1,10 @@
 export class Queue {
   constructor() {
-      this.items = [];
+    this.items = [];
   }
 
   enqueue(element) {
-      this.items.push(element);
+    this.items.push(element);
   }
 
   dequeue() {
@@ -12,7 +12,7 @@ export class Queue {
     return this.items.shift();
   }
 
-peek() {
+  peek() {
     if (this.isEmpty()) return null;
     return this.items[0];
   }
