@@ -1,0 +1,17 @@
+{
+  "name": "javascriptdatastructures",
+  "version": "1.0.0",
+  "description": "data structures",
+  "main": "src/index.js",
+  "type": "module",
+
+  "scripts": {
+    "start": "node src/index.js"
+  },
+
+  "directories": {
+    "test": "tests"
+  },
+  "author": "Maryia Pashkovich",
+  "license": "ISC"
+}
