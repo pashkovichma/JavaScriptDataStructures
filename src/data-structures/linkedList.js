@@ -1,4 +1,4 @@
-class ListNode {
+export class ListNode {
   constructor(value) {
     this.value = value;
     this.next = null;
@@ -11,7 +11,7 @@ export class LinkedList {
   }
 
   // Insert a node at the end
-  insrt(value) {
+  insert(value) {
     const newNode = new ListNode(value);
     if (this.head === null) {
       this.head = newNode;

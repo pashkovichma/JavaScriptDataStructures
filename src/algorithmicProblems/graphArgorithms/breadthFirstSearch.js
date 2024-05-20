@@ -1,4 +1,4 @@
-function bfsShortestPath(graph, start, end) {
+export function bfsShortestPath(graph, start, end) {
   const queue = [[start]];
   const visited = new Set();
 
